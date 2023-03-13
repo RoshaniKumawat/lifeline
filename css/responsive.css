@@ -1,0 +1,644 @@
+@import url("./style.css");
+
+/*---------------------------*/
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1400px) { 
+}
+
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+}
+
+
+/*// Large devices (desktops, 992px and up)*/
+@media (max-width: 991px) {
+
+	.navbar-expand-lg>.container {
+		padding: 0 15px;
+	}
+    
+    .home {
+    	padding: 0;
+    }
+
+	.hometextbox {
+		padding-left: 40px;
+	}
+
+	.imgbox {
+		margin-left: 0;
+		max-width: 100%;
+	}
+
+	.imgbox .figma {
+		left: -15px;
+	}
+
+	.imgbox .photoshop-logo {
+		right: -15px;
+	}
+
+	.homebtn {
+		top: 440px;
+	}
+	
+	/*----services----*/
+
+	.services {
+		padding-top: 70px;
+        padding-bottom: 70px;
+	}
+
+	.servicestext {
+		text-align: center;
+	}
+
+	/*.servicestext span {
+		font-size: 18px;
+		font-size: 24px;
+         font-weight: 600;
+	}*/
+
+	.servicestext h2 {
+		font-size: 28px;
+		line-height: 42px;
+	}
+    
+    .pargh {
+    	padding-top: 20px;
+    }
+
+    .pargh p {
+    	text-align: center;
+    }
+
+    /*---about-me---*/
+
+    .aboutheddingbox h2 {
+        font-size: 32px;
+        line-height: 36px;
+        padding: 0;
+    }
+
+    .aboutheddingbox span {
+        /*font-size: 18px;  */
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .aboutlistbox h3 {
+    	font-size: 20px;
+    }
+
+    .aboutlistbox a {
+    	font-size: 20px;
+    }
+
+    .rel-box img {
+    	height: 352.78px;
+    }
+
+    .rel-box span {
+    	width: 150px;
+        height: 150px;
+        border: 8px solid var(--text-hedding);
+        top: 260px;
+    }
+
+    @keyframes up {
+		0% {
+		  	top: 260px;
+		}
+
+		50% {
+		  	top: 210px;
+		}
+
+		100%{
+		    top: 260px; 
+		}
+	}
+	.working h4 {
+		font-size: 50px;
+	}
+
+	.working span {
+		font-size: 24px;
+	}
+
+	.logo-style hr {
+		width: 100%;
+		bottom: 185px;
+	}
+    
+    .logo-style-pdd {
+	    padding: 0 45px;
+	} 
+
+	.logo-style-1 img {
+		width: 100%;
+		opacity: 0.7;
+	}
+
+	/*----Resume----*/
+    
+    .dis-flx-hedding-box{
+    	display: block;
+    }
+	.dis-flx-hedding-box h3 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.dis-flx-hedding-box span {
+		margin: 5px 0;
+		display: inline-block;
+	}
+	.dis-flx-textbox p {
+		font-size: 16px;
+	}
+
+	.resume-span {
+		line-height: 25.5px;
+	}
+    
+    .resume-ab {
+    	height: 660px;
+    }
+
+	.resume-ab .circle-top {
+		top: -10px;
+	}
+
+	.resume-ab .circle-midem {
+		top: 225px;
+	}
+
+	.resume-ab .circle-bottom {
+		top: 465px;
+	}
+
+	/*---progress-bar---*/
+
+	.bar .max-w {
+		max-width: 100%;
+	}
+
+	/*---TESTIMONIALS----*/
+    
+    .left-icon {
+    	display: none;
+    }
+
+    .testimonials-text span {
+    	font-size: 22px;
+    }
+
+    .testimonials-text h2 {
+    	font-size: 28px;
+    	line-height: 42px;
+    }
+    
+    .testimonials .carousel {
+    	width: 950px;
+    }
+
+	.slider-p {
+        width:940px;
+	}
+
+	/*----contact----*/
+    
+    .contact-textbox span{
+    	/*font-size: 18px;*/
+    	font-size: 24px;
+        font-weight: 600;
+    }
+
+    .contact-textbox h2{
+    	font-size: 28px;
+    	line-height: 42px;
+    }
+
+    .contact-textbox {
+    	text-align: center;
+    }
+
+	.contact-textbox p {
+		font-size: 17px;
+		max-width: 100%;
+	}
+
+	form .send {
+		font-size: 20px;
+		padding: 10px 32px;
+	}
+
+	.contactpaddingbox {
+        margin-top: 30px;
+        padding-left: 35px;
+	}
+
+	.contacticonbox {
+		height: 87px;
+		margin-top: 0 !important;
+	}
+
+	.contacticonbox .phone-icon {
+		padding: 7px 12px;
+	}
+
+	.iconsbox h3 {
+		font-size: 22px;
+		line-height: 33px;
+	}
+
+	.num-icon{
+		font-size: 18px;
+	}
+
+	/*----blog--(modail-box)----*/
+
+    .blog-card h3 {
+    	font-size: 28px;
+    	line-height: 32.5px;
+    }
+
+    .blog-card p {
+    	font-size: 19px;
+    	line-height: 25.5px;
+    }
+    .blog-text-box {
+    	margin-bottom: 30px;
+    }
+}
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) { 
+    /*----home----*/
+    .home {
+    	padding-top: 40px;
+    }
+
+	.homebutton {
+       display: block;
+	}
+    
+    .hometextbox h2 {
+    	font-size: 40px;
+        line-height: 60px;
+    }
+
+    .hometextbox h3 {
+    	font-size: 24px;
+        line-height: 36px;
+    }
+
+	.hometextbox p {
+		font-size: 17px;
+        opacity: 1;
+	}
+
+	.homebutton span {
+		margin: 0;
+	}
+
+	.homebtn-textbox span b {
+		font-size: 20px;
+	}
+
+	.follow {
+        margin-top: 18px;
+	}
+
+	.homebtn {
+		top: 340px;
+	}
+
+	/*-----TESTIMONIALS----*/
+
+	.slider-p{
+         width: 768px;
+	}
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+    
+    /*-----home-----*/
+    
+    .home {
+    	padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    .imgbox {
+    	max-width: 327.69px;
+        margin: auto;
+    }
+    
+	.homebtn {
+	    top: 380px;
+	}
+
+	.hometextbox {
+		text-align: center;
+		margin-top: 30px;
+	}
+    
+    .hometextbox h2 {
+    	font-size: 28px;
+        line-height: 42px;
+    }
+
+    .hometextbox h3 {
+    	font-size: 20px;
+        line-height: 30px;
+    }
+
+    .hometextbox p {
+    	line-height: 24px;
+        margin-top: 15px;
+    }
+
+    .homebutton {
+    	display: flex;
+    	align-items: center;
+    }
+
+    .follow {
+    	margin: 0;
+    }
+
+    .homebutton .anchorbtn {
+    	padding: 8px 28px;
+        font-size: 18px;
+    }
+
+    .homebutton span {
+    	margin-left: 18px;
+    	font-size: 18px;
+    }
+
+    /*-----services----*/
+     
+    .servicestext span {
+        font-size: 20px;
+    }
+
+    .servicestext h2 {
+    	font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .margin-bot {
+        margin-bottom: 30px;
+    }
+
+    .paddbox h3 {
+    	font-size: 20px;
+    }
+
+    /*------about-me-----*/
+    
+    .abouttextbox {
+    	margin-bottom: 50px;
+    }
+
+    .aboutheddingbox span {
+    	font-size: 20px;
+    }
+
+    .aboutheddingbox h2{
+    	font-size: 24px;
+    }
+
+    .rel-box img {
+    	height: 549px;
+    }
+
+    .rel-box span {
+    	left: 3%;
+	    width: 100px;
+	    height: 100px;
+	    top: 500px;
+    }
+
+    @keyframes up {
+		0% {
+		  	top: 500px;
+		}
+
+		50% {
+		  	top: 400px;
+		}
+
+		100%{
+		    top: 500px; 
+		}
+	}
+    
+
+    .working span {
+    	font-size: 20px;
+    }
+
+    /*----Resume---*/
+    
+    .dis-flx-textbox p {
+    	font-size: 17px;
+    }
+
+    .mar-t {
+    	margin-top: 40px;
+    }
+
+	/*-----TESTIMONIALS-----*/
+
+    .slider-p {
+    	width: 580px;
+    }
+
+    /*----contact-----*/
+
+    form .send {
+    	font-size: 18px;
+        padding: 8px 28px;
+    }
+
+    /*----blog--(modail-box)----*/
+
+    .blog-card h3 {
+    	font-size: 25px;
+    	line-height: 37px;
+    }
+
+    .blog-card p {
+    	font-size: 17px;
+    }
+
+    /*----footer----*/
+
+    .di-flex {
+    	justify-content: center;
+    }
+
+    .just-co {
+    	justify-content: center;
+    	margin-top: 15px;
+    }
+
+	.just-co a {
+		font-size: 15.5px;
+	}
+}
+
+
+/*// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+@media (max-width: 425px) {
+    
+    /*----home----*/
+
+    .homebutton {
+    	display: block;
+    }
+
+    .hometextbox {
+	    padding-left: 0px;
+	}
+
+    .follow {
+    	margin-top: 18px;
+    	justify-content: center;
+    }
+    
+    /*----about-me----*/
+
+    .display-flex {
+		display: block;
+	}
+
+	.logo-style-pdd {
+		padding: 0 25px;
+	}
+
+	.logo-style-1 {
+		padding: 40px 0;
+	}
+    
+    /*----portfolio----*/
+
+    .worklink a {
+    	font-size: 16px;
+    }
+
+    /*----TESTIMONIALS----*/ 
+
+    .slider-p {
+	    width: 420px;
+	}
+    
+    /*----contact----*/
+
+	.contacticonbox {
+		margin-top: 28px !important;
+	}
+
+	.contactpaddingbox {
+		padding-left: 0;
+	}
+
+	/*----footer----*/
+
+    .di-flex {
+    	justify-content: center;
+    }
+
+    .just-co {
+    	justify-content: center;
+    	margin-top: 15px;
+    }
+
+	/*.just-co a {
+		font-size: 16px;
+	}*/
+}
+
+
+@media (max-width: 320px) {
+
+    /*---------home--------*/
+
+	.homebtn {
+	    top: 320px;
+	}
+
+	.hometextbox {
+		padding: 0;
+	}
+
+	/*--------services------*/
+
+	.servicestext h2 {
+		font-size: 23px;
+	}
+    
+    /*---------Resume--------*/
+    
+    .resume-ab {
+	    height: 800px;
+	}
+
+	.resume-ab .circle-midem {
+	    top: 275px;
+	}
+
+	.resume-ab .circle-bottom {
+	    top: 560px;
+	}
+
+    .dis-flx {
+        padding-right: 25px;
+    }
+ 
+	.dis-flx-hedding-box h3 {
+	    font-size: 16px;
+	}
+    
+    .dis-flx-hedding-box span {
+        font-size: 12px;
+    }
+
+	.dis-flx-textbox p {
+		font-size: 16px;
+	}
+
+    /*----progress-bar-------*/
+
+    .bar {
+    	padding-top: 0;
+    }
+
+	/*----TESTIMONIALS----*/
+
+    .slider-p {
+	    width: 320px;
+	}
+    
+    /*----portfolio----*/
+
+	.workitem-2 .layer {
+		padding: 10px;
+		left: -30px;
+	}
+
+	/*-------contact----*/
+
+	.contactpaddingbox {
+        padding-left: 0;  
+	}
+}
